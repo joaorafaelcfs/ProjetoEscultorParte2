@@ -12,7 +12,7 @@ PutEllipsoid::PutEllipsoid (int x0, int y0, int z0, int raiox, int raioy, int ra
 
 }
 PutEllipsoid::~PutEllipsoid(){
-    std::cout << "Destrutor PutEllipsoid" << std::endl;
+
 }
 void PutEllipsoid::draw(Sculptor &s){
     int i,j,k, _dimx = 0, _dimy = 0, _dimz = 0;

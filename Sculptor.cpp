@@ -108,7 +108,6 @@ void Sculptor::writeOFF(char *filename){
 // Escrever primeira linha no arquivo.
     escultura << "OFF" << endl;
 // Contar a quantidade de vertices e faces que deverão ser incluidos no arquivo
-    cout << "WRITEOFF" << endl;
     for (i = 0; i < nx; i++){
         for (j = 0; j < ny ; j++){
             for (k = 0; k < nz; k++){
@@ -120,8 +119,6 @@ void Sculptor::writeOFF(char *filename){
             }
         }
     }
-    cout << "nv = " << nv <<  endl;
-    cout << "nf = " << nf <<  endl;
 // Escrever a quantidade de vertices, faces e arestas
     escultura << nv << " " << nf << " 0" << endl;
 

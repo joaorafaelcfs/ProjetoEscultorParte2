@@ -6,7 +6,7 @@ CutBox::CutBox (int mx0, int mx1, int my0, int my1, int mz0, int mz1){
 }
 
 CutBox::~CutBox(){
-    std::cout << "Destrutor CutBox" << std::endl;
+    
 }
 
 void CutBox::draw(Sculptor &s){

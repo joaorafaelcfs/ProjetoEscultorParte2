@@ -18,17 +18,15 @@ int main(){
 
     std::vector<FiguraGeometrica*>figs;
     
-    figs = parser.parse("lata51.txt");
+    figs = parser.parse("batman.txt");
 
     s1 = new Sculptor (parser.getDimx(), parser.getDimy(), parser.getDimz());
 
-    cout << "tamanho = " << figs.size() << endl;
     for (size_t i=0; i<figs.size(); i++){
-        cout << "draw" << endl;
         figs[i]->draw(*s1);
     }
     
-    s1 -> writeOFF((char*)"lata51.off");
+    s1 -> writeOFF((char*)"batman.off");
 
     for (size_t i=0; i<figs.size();i++){
         delete figs[i];

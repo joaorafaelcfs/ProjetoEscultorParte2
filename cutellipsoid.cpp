@@ -5,7 +5,7 @@ CutEllipsoid::CutEllipsoid (int mx, int my, int mz, int raiox, int raioy, int ra
 }
 
 CutEllipsoid::~CutEllipsoid(){
-    std::cout << "Destrutor CutEllipsoid" << std::endl;
+    
 }
 
 void CutEllipsoid::draw(Sculptor &s){

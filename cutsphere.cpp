@@ -5,7 +5,7 @@ CutSphere::CutSphere (int mx, int my, int mz, int raio){
 }
 
 CutSphere::~CutSphere(){
-    std::cout << "Destrutor CutSphere" << std::endl;
+    
 }
 
 void CutSphere::draw(Sculptor &s){

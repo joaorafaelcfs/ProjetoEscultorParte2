@@ -12,7 +12,7 @@
 #include <iostream>
 int dx, dy,dz;
 Interpretador::Interpretador(){
-    cout << "Contrutor Interpretador" << endl;
+
 }
 
 std::vector<FiguraGeometrica*> Interpretador::parse(std::string filename){
@@ -43,7 +43,6 @@ std::vector<FiguraGeometrica*> Interpretador::parse(std::string filename){
                     dx = dimx;
                     dy = dimy;
                     dz = dimz;
-                    std::cout << "dimx = " << dimx << " dimy = " << dimy << " dimz = " << dimz << std::endl;
                 }
                 //usuario define brush
                 else if (token.compare("putvoxel") == 0){

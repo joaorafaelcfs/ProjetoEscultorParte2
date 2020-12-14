@@ -12,7 +12,7 @@ PutSphere::PutSphere (int x0, int y0, int z0, int raio, float r, float g, float 
 
 }
 PutSphere::~PutSphere(){
-    std::cout << "Destrutor PutSphere" << std::endl;
+    
 }
 void PutSphere::draw(Sculptor &s){
     int i,j,k, _dimx = 0, _dimy = 0, _dimz = 0;
