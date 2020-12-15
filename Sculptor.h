@@ -59,7 +59,6 @@ public:
 /** \brief Aqui a função grava a escultura no formato OFF no arquivo "filename".
 *   \param *filename -- Nome que o seu arquivo OFF receberá */
   void writeOFF(char* filename);
-  void limpaVoxels();
 };
 
 

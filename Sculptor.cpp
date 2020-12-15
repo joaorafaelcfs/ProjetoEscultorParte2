@@ -4,6 +4,7 @@
 #include <cstdlib>    // Biblioteca usado para o exit
 #include <fstream>    // Biblioteca usado para as streams
 #include <cmath>      // Biblioteca usado para operações matematicas
+#include <queue>
 
 using namespace std;
 
@@ -105,6 +106,7 @@ void Sculptor::writeOFF(char *filename){
         cout << "Arquivo não abriu" <<endl;
         exit(1);
     }
+   
 // Escrever primeira linha no arquivo.
     escultura << "OFF" << endl;
 // Contar a quantidade de vertices e faces que deverão ser incluidos no arquivo

@@ -25,13 +25,12 @@ int main(){
     for (size_t i=0; i<figs.size(); i++){
         figs[i]->draw(*s1);
     }
-    
+
     s1 -> writeOFF((char*)"batman.off");
 
     for (size_t i=0; i<figs.size();i++){
         delete figs[i];
     }
-
     delete s1;
     return 0;
 
