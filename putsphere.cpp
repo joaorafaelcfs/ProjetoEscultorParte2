@@ -17,7 +17,6 @@ PutSphere::~PutSphere(){
 void PutSphere::draw(Sculptor &s){
     int i,j,k, _dimx = 0, _dimy = 0, _dimz = 0;
     s.setColor(r,g,b,a);
-    cout << "cores da esfera = " << r << ", "<< g << ", " << b << endl;
     Interpretador c;
     _dimx = c.getDimx(); //ajeitar
     _dimy = c.getDimy();
